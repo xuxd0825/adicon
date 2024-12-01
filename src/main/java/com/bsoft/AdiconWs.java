@@ -3,16 +3,16 @@ package com.bsoft;
 import com.bsoft.client.AdiconWebService;
 import com.bsoft.client.AdiconWebServiceSoap;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Component;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
-@SpringBootApplication
+@Component
 public class AdiconWs {
-    public static void main(String[] args) {
-//        SpringApplication.run(AdiconWs.class, args);
+    public void adiconWs() {
         AdiconWebService adiconWebService = new AdiconWebService();
         AdiconWebServiceSoap adiconWebServicePort = adiconWebService.getAdiconWebServiceSoap();
 
@@ -21,8 +21,8 @@ public class AdiconWs {
 //        String key = adiconWebServicePort.login("261079", "abc123");
 //        System.out.println(key);
 
-        String itemList = adiconWebServicePort.getReportItemListByCustomerBarocde(key,"401030199301","常规报告");
-//        System.out.println(itemList);
+        String itemList = adiconWebServicePort.getReportItemListByCustomerBarocde(key, "401030199301", "常规报告");
+        //        System.out.println(itemList);
         ItemListProcess itemListProcess = new ItemListProcess();
         itemListProcess.itemListProcess(itemList);
 
