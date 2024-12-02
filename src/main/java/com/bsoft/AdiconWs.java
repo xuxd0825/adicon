@@ -18,13 +18,12 @@ public class AdiconWs {
 
         String key = "0xedAmh6MJfgAJ1LOxRTyAUgFYFEjEv2jXtlhKt7Ik0srls1M7/uXg==";
 
-//        String key = adiconWebServicePort.login("261079", "abc123");
-//        System.out.println(key);
+        String key2 = adiconWebServicePort.login("261079", "abc123");
+        System.out.println(key2);
 
-        String itemList = adiconWebServicePort.getReportItemListByCustomerBarocde(key, "401030199301", "常规报告");
-        //        System.out.println(itemList);
-        ItemListProcess itemListProcess = new ItemListProcess();
-        itemListProcess.itemListProcess(itemList);
+//        String itemList = adiconWebServicePort.getReportItemListByCustomerBarocde(key, "401030199301", "常规报告");
+//        ItemListProcess itemListProcess = new ItemListProcess();
+//        itemListProcess.itemListProcess(itemList);
 
 //        byte[] pdfData = adiconWebServicePort.getByteReportByYYtm("401030199301", key);
 //        // 输出 PDF 文件路径
