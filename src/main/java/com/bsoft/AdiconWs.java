@@ -3,23 +3,30 @@ package com.bsoft;
 import com.bsoft.client.AdiconWebService;
 import com.bsoft.client.AdiconWebServiceSoap;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
 @Component
+@EnableScheduling
 public class AdiconWs {
+    @Scheduled(fixedRate = 5_000)
     public void adiconWs() {
         AdiconWebService adiconWebService = new AdiconWebService();
         AdiconWebServiceSoap adiconWebServicePort = adiconWebService.getAdiconWebServiceSoap();
 
         String key = "0xedAmh6MJfgAJ1LOxRTyAUgFYFEjEv2jXtlhKt7Ik0srls1M7/uXg==";
 
-        String key3 = adiconWebServicePort.login("261079", "abc123");
-        System.out.println(key3);
+        System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+//        String key3 = adiconWebServicePort.login("261079", "abc123");
+//        System.out.println(key3);
 
 //        String itemList = adiconWebServicePort.getReportItemListByCustomerBarocde(key, "401030199301", "常规报告");
 //        ItemListProcess itemListProcess = new ItemListProcess();
