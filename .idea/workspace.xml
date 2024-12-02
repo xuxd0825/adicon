@@ -7,7 +7,6 @@
     <list default="true" id="25243f40-91ec-4bf7-bc2f-7af29875ebe7" name="更改" comment="adicon ws">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,7 @@
       <updated>1732935390828</updated>
       <workItem from="1733101413771" duration="59000" />
       <workItem from="1733101479345" duration="1216000" />
-      <workItem from="1733104371607" duration="3195000" />
+      <workItem from="1733104371607" duration="5022000" />
     </task>
     <task id="LOCAL-00001" summary="adicon">
       <option name="closed" value="true" />
@@ -197,11 +196,29 @@
       <option name="project" value="LOCAL" />
       <updated>1733104111287</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adicon ws">
+      <created>1733128672912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733128672912</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adicon" />
