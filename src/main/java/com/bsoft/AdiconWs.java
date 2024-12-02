@@ -18,8 +18,8 @@ public class AdiconWs {
 
         String key = "0xedAmh6MJfgAJ1LOxRTyAUgFYFEjEv2jXtlhKt7Ik0srls1M7/uXg==";
 
-        String key2 = adiconWebServicePort.login("261079", "abc123");
-        System.out.println(key2);
+        String key3 = adiconWebServicePort.login("261079", "abc123");
+        System.out.println(key3);
 
 //        String itemList = adiconWebServicePort.getReportItemListByCustomerBarocde(key, "401030199301", "常规报告");
 //        ItemListProcess itemListProcess = new ItemListProcess();
