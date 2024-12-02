@@ -8,7 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 import javax.swing.*;
 
 @SpringBootApplication
-@ComponentScan
 public class Main {
     public static void main(String[] args) {
         SpringApplication.run(Main.class,args);

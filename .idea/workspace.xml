@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="25243f40-91ec-4bf7-bc2f-7af29875ebe7" name="更改" comment="adicon ws">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/AdiconWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/AdiconWs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,9 @@
     &quot;accountId&quot;: &quot;8a34be58-3efd-4f78-848a-42a5685afa6e&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -70,6 +74,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "ff35025b2e99c844bd6e75d190c843c4",
     "应用程序.AdiconWs.executor": "Run",
     "应用程序.Main.executor": "Run",
     "应用程序.com.bsoft.Main.executor": "Run"
@@ -143,7 +148,8 @@
       <option name="presentableId" value="Default" />
       <updated>1732935390828</updated>
       <workItem from="1733101413771" duration="59000" />
-      <workItem from="1733101479345" duration="850000" />
+      <workItem from="1733101479345" duration="1216000" />
+      <workItem from="1733104371607" duration="3195000" />
     </task>
     <task id="LOCAL-00001" summary="adicon">
       <option name="closed" value="true" />
@@ -177,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733054827297</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adicon ws">
+      <created>1733104030473</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733104030473</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adicon ws">
+      <created>1733104111287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733104111287</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
