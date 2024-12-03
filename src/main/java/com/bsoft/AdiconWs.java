@@ -15,14 +15,12 @@ import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
 @Component
-@EnableScheduling
 public class AdiconWs {
     @Autowired
     AdiconWebService adiconWebService;
 
     @Scheduled(fixedRate = 10_000)
     public void adiconWs() {
-
 //        AdiconWebService adiconWebService = new AdiconWebService();
         AdiconWebServiceSoap adiconWebServicePort = adiconWebService.getAdiconWebServiceSoap();
 
