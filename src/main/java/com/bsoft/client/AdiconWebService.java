@@ -1,6 +1,8 @@
 
 package com.bsoft.client;
 
+import org.springframework.stereotype.Component;
+
 import javax.xml.namespace.QName;
 import javax.xml.ws.*;
 import java.net.MalformedURLException;
@@ -15,6 +17,7 @@ import java.net.URL;
  * Generated source version: 2.2
  * 
  */
+@Component
 @WebServiceClient(name = "AdiconWebService", targetNamespace = "http://www.adicon.com.cn/", wsdlLocation = "http://218.94.115.122:8099/ADReportWebService.asmx?swdl")
 public class AdiconWebService
     extends Service
