@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25243f40-91ec-4bf7-bc2f-7af29875ebe7" name="更改" comment="adicon ws">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/entity/Testresult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/mybatis/CommonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/mybatis/ICommonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/mybatis/Interceptor/InterceptorForMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/mybatis/Pager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/oracle/common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/sqlserver/common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/AdiconWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/AdiconWs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -46,13 +45,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -68,10 +60,6 @@
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -79,12 +67,12 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/xxd08/Documents/dev/java/adicon/src/main/java/com/bsoft",
+    "last_opened_file_path": "C:/work/java/adicon/src/main/resources",
     "onboarding.tips.debug.path": "C:/work/java/adicon/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "ff35025b2e99c844bd6e75d190c843c4",
     "应用程序.AdiconWs.executor": "Run",
     "应用程序.Main.executor": "Run",
@@ -93,11 +81,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xxd08\Documents\dev\java\adicon\src\main\java\com\bsoft" />
-      <recent name="C:\Users\xxd08\Documents\dev\java\adicon\src\main\resources" />
+      <recent name="C:\work\java\adicon\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main">
+  <component name="RunManager" selected="应用程序.com.bsoft.Main">
     <configuration name="AdiconWs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bsoft.AdiconWs" />
       <module name="adicon" />
@@ -148,22 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="adicon" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bsoft.Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bsoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="应用程序.com.bsoft.Main" />
         <item itemvalue="应用程序.AdiconWs" />
         <item itemvalue="应用程序.Main" />
@@ -181,7 +154,6 @@
       <workItem from="1733101413771" duration="59000" />
       <workItem from="1733101479345" duration="1216000" />
       <workItem from="1733104371607" duration="5022000" />
-      <workItem from="1733196628288" duration="5980000" />
     </task>
     <task id="LOCAL-00001" summary="adicon">
       <option name="closed" value="true" />
@@ -236,21 +208,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733128672912</updated>
     </task>
-    <task id="LOCAL-00008" summary="adicon ws">
-      <created>1733190277502</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1733190277502</updated>
-    </task>
-    <task id="LOCAL-00009" summary="adicon ws">
-      <created>1733201274888</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1733201274888</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,8 +235,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bsoft/ItemListProcess.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bsoft/ItemListProcess.java</url>
           <line>102</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bsoft/AdiconWs.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
