@@ -42,7 +42,7 @@ public class AdiconWs {
         System.out.println(ds);
         Map<String, Object> fields = new HashMap<>();
         fields.put("AdiconBarcode","123");
-        commonMapper.insertCommon("l_testresult",null,fields);
+        commonMapper.insertCommon("adiconrecord",null,fields);
 
 //        String key3 = adiconWebServicePort.login("261079", "abc123");
 //        System.out.println(key3);
