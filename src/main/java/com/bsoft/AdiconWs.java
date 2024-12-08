@@ -2,7 +2,9 @@ package com.bsoft;
 
 import com.bsoft.client.AdiconWebService;
 import com.bsoft.client.AdiconWebServiceSoap;
+import com.bsoft.entity.departments;
 import com.bsoft.mybatis.ICommonMapper;
+import com.bsoft.mybatis.departmentsMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -14,10 +16,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 @Component
 public class AdiconWs {
@@ -26,6 +25,9 @@ public class AdiconWs {
 
     @Autowired
     protected ICommonMapper commonMapper;
+
+    @Autowired
+    departmentsMapper dm;
 
     @Autowired
     DataSource ds;
@@ -39,10 +41,13 @@ public class AdiconWs {
 
         System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
 
-        System.out.println(ds);
+//        List<departments> dml = dm.list();
+//        System.out.println(dml.toString());
+
+//        System.out.println(ds);
         Map<String, Object> fields = new HashMap<>();
         fields.put("AdiconBarcode","123");
-        commonMapper.insertCommon("adiconrecord",null,fields);
+        commonMapper.insertCommon("adiconrecord","",fields);
 
 //        String key3 = adiconWebServicePort.login("261079", "abc123");
 //        System.out.println(key3);

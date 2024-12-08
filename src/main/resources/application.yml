@@ -5,6 +5,8 @@ spring:
     url: jdbc:mysql://localhost:3306/portal_lis
     username: root
     password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
 
 #  datasource:
 #    url: jdbc:oracle:thin:@127.0.0.1:1521/orcl

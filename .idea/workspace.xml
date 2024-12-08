@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25243f40-91ec-4bf7-bc2f-7af29875ebe7" name="更改" comment="adicon ws">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/entity/departments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/mybatis/departmentsMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/AdiconWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/AdiconWs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/ItemListProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/ItemListProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/entity/Testresult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bsoft/mybatis/CommonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bsoft/mybatis/CommonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/common.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/common.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -34,7 +41,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/xuxd0825/adicon.git&quot;,
-    &quot;accountId&quot;: &quot;8a34be58-3efd-4f78-848a-42a5685afa6e&quot;
+    &quot;accountId&quot;: &quot;4770031b-d812-4c72-ba54-5a0baf02f1de&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -49,37 +56,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/java/adicon/src/main/resources&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/work/java/adicon/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ff35025b2e99c844bd6e75d190c843c4&quot;,
-    &quot;应用程序.AdiconWs.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.com.bsoft.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Main.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/work/java/adicon/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/work/java/adicon/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "ff35025b2e99c844bd6e75d190c843c4",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.AdiconWs.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.com.bsoft.Main.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="com.bsoft.mybatis" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\java\adicon\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.bsoft.Main">
+  <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="AdiconWs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bsoft.AdiconWs" />
       <module name="adicon" />
@@ -119,24 +146,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="应用程序.com.bsoft.Main" />
-        <item itemvalue="应用程序.AdiconWs" />
-        <item itemvalue="应用程序.Main" />
-      </list>
-    </recent_temporary>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="adicon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bsoft.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -149,6 +179,14 @@
       <workItem from="1733101413771" duration="59000" />
       <workItem from="1733101479345" duration="1216000" />
       <workItem from="1733104371607" duration="5022000" />
+      <workItem from="1733547022496" duration="1561000" />
+      <workItem from="1733556818553" duration="55000" />
+      <workItem from="1733557676060" duration="939000" />
+      <workItem from="1733559339634" duration="114000" />
+      <workItem from="1733559474817" duration="1342000" />
+      <workItem from="1733562451607" duration="12000" />
+      <workItem from="1733565081583" duration="177000" />
+      <workItem from="1733565570237" duration="6268000" />
     </task>
     <task id="LOCAL-00001" summary="adicon">
       <option name="closed" value="true" />
@@ -248,10 +286,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bsoft/AdiconWs.java</url>
-          <line>41</line>
+          <line>46</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

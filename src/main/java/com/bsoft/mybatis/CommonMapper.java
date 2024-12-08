@@ -151,7 +151,7 @@ public class CommonMapper implements ICommonMapper {
 //            log.error("==={}:{}===",e,((Map<String,Object>)fields).get(e));
 //        });
         param.put("tableName", tableName);
-        return template.insert("mybatis.common.insert", param);
+        return template.insert("mybatis.common..insert", param);
     }
 
     @Override
